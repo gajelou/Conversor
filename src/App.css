@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+
+/* arquivo-de-estilo.css */
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+.Conteudo{
+  max-width: 1200px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-bottom: 150px;
+  font-size: 1.6rem;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 500px;
+  
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.514);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  display: grid;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+select,
+input[type="number"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+}
+
+
+p {
+  margin-top: 1rem;
+}
+
+/* Cores */
+body {
+  background-color: #f0f7ff;
+}
+
+h2 {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: solid 2px grey;
+  border-radius: 13px;
+}  
+
+
+h1, h2 {
+  color: #007bff;
+}
+
+label {
+  color: #007bff;
+}
+
+select,
+input[type="number"] {
+  background-color: #e8f0fe;
+  border: solid 1px rgba(128, 128, 128, 0.788);
+}
+
+input{
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+button{
+  border-radius: 4px;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+p {
+  color: #007bff;
 }
