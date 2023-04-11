@@ -5,6 +5,8 @@ import Converter from './component/ConversorDeMoedas';
 function App() {
   return (
     <div className="App">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1931640987893594"
+     crossorigin="anonymous"></script>
         <header>
             <h2>Faça agora sua conversão ou cotação de quaisquer moedas e valores a qualquer momento e de qualquer lugar no melhor web aplicativo!</h2>
         </header>
