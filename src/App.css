@@ -8,16 +8,8 @@
   
   
 }
-.Conteudo{
-  max-width: 1200px;
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  padding-bottom: 150px;
-  font-size: 1.6rem;
 
-}
+
 
 body {
   font-family: Arial, sans-serif;
@@ -27,7 +19,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-35%);
   max-width: 500px;
   
   padding: 1rem;

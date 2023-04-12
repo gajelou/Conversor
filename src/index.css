@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Conteudo{
+  max-width: 1200px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-bottom: 150px;
+  font-size: 1.6rem;
+
+}
