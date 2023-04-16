@@ -42,13 +42,29 @@ const Converter = () => {
             onChange={(e) => setBaseCurrency(e.target.value)}
           >
             <option value="USD">USD (Dólar Americano)</option>
+            <option value="BRL">BRL (Real Brasileiro)</option>
             <option value="EUR">EUR (Euro)</option>
             <option value="GBP">GBP (Libra Esterlina)</option>
-            <option value="JPY">JPY (Iene Japonês)</option>
-            <option value="BRL">BRL (Real Brasileiro)</option>
+            <option value="CNY">CNY (Yuan Chinês)</option>
+            <option value="RUB">RUB (Rublo Russo)</option> 
+            <option value="HKD">HKD (Dólar de Hong Kong)</option>
+            <option value="MXN">MXN (Peso Mexicano)</option> 
+            <option value="CLP">CLP (Peso Chileno)</option> 
+            <option value="COP">COP (Peso Colombiano)</option>
+            <option value="CUP">CUP (Peso Cubano)</option>
+            <option value="VEF">VEF (Bolívar Venezuelano)</option> 
             <option value="CAD">CAD (Dólar Canadense)</option>
             <option value="AUD">AUD (Dólar Australiano)</option>
             <option value="CHF">CHF (Franco Suíço)</option>
+            <option value="BTC">BTC (Bitcoin)</option>
+            <option value="ETH">ETH (Ethereum)</option>
+            <option value="DOGE">DOGE (Dogecoin)</option>
+            <option value="LTC">LTC (Litecoin)</option> 
+            <option value="XRP">XRP (XRP)</option> 
+            <option value="KRW">KRW (Won Sul-Coreano)</option> 
+            <option value="XAU">XAU (Ouro)</option> 
+            <option value="XAGG">XAGG (Prata)</option>
+            <option value="JPY">JPY (Iene Japonês)</option>
           </select>
         </label>
 
@@ -58,15 +74,31 @@ const Converter = () => {
             value={targetCurrency}
             onChange={(e) => setTargetCurrency(e.target.value)}
           >
+            <option value="BRL">BRL (Real Brasileiro)</option>
             <option value="USD">USD (Dólar Americano)</option>
             <option value="EUR">EUR (Euro)</option>
             <option value="GBP">GBP (Libra Esterlina)</option>
-            <option value="JPY">JPY (Iene Japonês)</option>
-            <option value="BRL">BRL (Real Brasileiro)</option>
+            <option value="CNY">CNY (Yuan Chinês)</option>
+            <option value="RUB">RUB (Rublo Russo)</option> 
+            <option value="HKD">HKD (Dólar de Hong Kong)</option>
+            <option value="MXN">MXN (Peso Mexicano)</option> 
+            <option value="CLP">CLP (Peso Chileno)</option> 
+            <option value="COP">COP (Peso Colombiano)</option>
+            <option value="CUP">CUP (Peso Cubano)</option>
+            <option value="VEF">VEF (Bolívar Venezuelano)</option> 
             <option value="CAD">CAD (Dólar Canadense)</option>
             <option value="AUD">AUD (Dólar Australiano)</option>
             <option value="CHF">CHF (Franco Suíço)</option>
-          
+            <option value="BTC">BTC (Bitcoin)</option>
+            <option value="ETH">ETH (Ethereum)</option>
+            <option value="DOGE">DOGE (Dogecoin)</option>
+            <option value="LTC">LTC (Litecoin)</option> 
+            <option value="XRP">XRP (XRP)</option> 
+            <option value="KRW">KRW (Won Sul-Coreano)</option> 
+            <option value="XAU">XAU (Ouro)</option> 
+            <option value="XAGG">XAGG (Prata)</option>
+            <option value="JPY">JPY (Iene Japonês)</option>
+
           </select>
         </label>
 
