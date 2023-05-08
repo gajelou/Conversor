@@ -8,13 +8,7 @@
   transform: translate(-50%, 0%);
   padding-bottom: 150px;
   font-size: 1.6rem;
-  background-color: linear-gradient(68deg, rgba(0, 0, 0, 0.842),rgba(217, 134, 25, 0.925))
+  background-color: -webkit-linear-gradient(68deg, rgba(0, 0, 0, 0.781),rgba(217, 134, 25, 0.925));
 
 }
 
-body {
-   
-  font-family: Sarala, sans-serif;
-  
-    
-}
