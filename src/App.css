@@ -9,12 +9,7 @@
   
 }
 
-body {
-   
-  font-family: Sara, sans-serif;
-  background-color: linear-gradient(67deg, brown, white);
-    
-}
+
 
 
 .container {
@@ -76,7 +71,7 @@ h2 {
 
 
 h1, h2 {
-  color: #007bff;
+  color: #091016;
 }
 
 label {
@@ -101,5 +96,5 @@ button{
 }
 
 p {
-  color: #007bff;
+  color: #080e14;
 }
