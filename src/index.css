@@ -19,3 +19,14 @@ body {
   background-size: cover;
   height: 4000px;
 }
+
+@media (max-width:700px) {
+  #Conteudo{
+    max-width: 1200px;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 1.6rem;
+  }
+}
