@@ -6,7 +6,7 @@
   top: 150%;
   left: 50%;
   transform: translate(-50%, 0%);
-  padding-bottom: 150px;
+  padding-bottom: 0px;
   font-size: 1.6rem;
   
 
@@ -17,6 +17,5 @@ body {
   font-family: Sarala, sans-serif;
   background: linear-gradient(68deg, rgba(90, 72, 255, 0.938), rgba(255, 255, 255, 0.945));
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 3200px;
+  height: 4000px;
 }
