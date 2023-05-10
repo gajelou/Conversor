@@ -48,6 +48,9 @@ const Converter = () => {
             <option value="CNY">CNY (Yuan Chinês)</option>
             <option value="RUB">RUB (Rublo Russo)</option> 
             <option value="HKD">HKD (Dólar de Hong Kong)</option>
+            <option value="MZN">MZN (Metical de Moçambique)</option>
+            <option value="ARS">ARS (Peso Argentino)</option> 
+            <option value="PEN">PEN (Sol do Peru)</option> 
             <option value="MXN">MXN (Peso Mexicano)</option> 
             <option value="CLP">CLP (Peso Chileno)</option> 
             <option value="COP">COP (Peso Colombiano)</option>
@@ -81,6 +84,9 @@ const Converter = () => {
             <option value="CNY">CNY (Yuan Chinês)</option>
             <option value="RUB">RUB (Rublo Russo)</option> 
             <option value="HKD">HKD (Dólar de Hong Kong)</option>
+            <option value="MZN">MZN (Metical de Moçambique)</option>
+            <option value="ARS">ARS (Peso Argentino)</option> 
+            <option value="PEN">PEN (Sol do Peru)</option> 
             <option value="MXN">MXN (Peso Mexicano)</option> 
             <option value="CLP">CLP (Peso Chileno)</option> 
             <option value="COP">COP (Peso Colombiano)</option>
